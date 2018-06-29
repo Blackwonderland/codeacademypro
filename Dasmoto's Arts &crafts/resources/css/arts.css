@@ -1,11 +1,18 @@
+div.a4 {
+        width: 645px;
+        /* to centre page on screen*/
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        border-left: 1px dotted gray;
+        border-right: 1px dotted gray;
+}
 html {
   font-family: Helvetica;
 }
 .head {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
-  font-size: 100px;
-  font-weight: bold;
-  color: khaki;
   text-align: center;
 }
 .brushes {
@@ -28,6 +35,9 @@ h2 {
 }
 h1 {
   display: block;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 0px;
